@@ -1,0 +1,2 @@
+# wd_0309_ej_seleccion_atributo
+WD_0309_Ej_Seleccion_atributo Artesvisuales
