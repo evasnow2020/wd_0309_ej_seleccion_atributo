@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      var x;
+      x = $(document);
+      x.ready(iniciar);
+      function iniciar() {
+        var x;
+        x = $("#revelar");
+        x.click(mostrar);
+      }
+      function mostrar() {
+        var x = $("[href]");
+        x.css("background-color", "yellow");
+      }
+    </script>
+  </head>
+  <body>
+    <a href="">Enlace 1</a>
+    <a href="">Enlace 2</a>
+    <a href="">Enlace 3</a>
+    <a href="">Enlace 4</a>
+    <a href="">Enlace 5</a>
+    <ul>
+      <li>Lista 1</li>
+      <li>Lista 2</li>
+      <li>Lista 3</li>
+      <li>Lista 4</li>
+    </ul>
+    <button id="revelar">Mostrar Enlaces</button>
+  </body>
+</html>
